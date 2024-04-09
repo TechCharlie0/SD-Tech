@@ -2,8 +2,7 @@
   padding: 0;
   margin: 0;
   text-transform: capitalize;
-  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
 
 li {
@@ -13,10 +12,7 @@ li {
 a {
   color: #ffff;
   text-decoration: none;
-
 }
-
-
 
 header {
   display: flex;
@@ -41,14 +37,11 @@ header .call-message {
   margin-right: 10px;
 }
 
-
-
 .ticket-remote {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-
 }
 
 .ticket button {
@@ -73,7 +66,6 @@ header .call-message {
   color: #1e6087;
   background-color: #ffff;
   border: none;
-
 }
 
 .remote:hover {
@@ -87,14 +79,12 @@ header .call-message {
 
   height: 20px;
   padding: 30px 110px 50px 0px;
-
 }
 
 .nav-link .ul-menu {
   display: flex;
   justify-content: right;
   gap: 40px;
-
 }
 
 .nav-link .ul-menu li a {
@@ -102,7 +92,6 @@ header .call-message {
   font-weight: 600;
   color: rgba(2, 2, 2, 0.671);
 }
-
 
 .service-list {
   top: 50%;
@@ -112,7 +101,6 @@ header .call-message {
   background-color: white;
   position: absolute;
   border-top: 2px solid #1e6087;
-
 }
 
 .service-list li {
@@ -121,9 +109,7 @@ header .call-message {
 
 .service-list li a {
   transition: all 0.3s ease-in;
-
 }
-
 
 .service-list li a:hover {
   color: green;
@@ -170,7 +156,6 @@ main .information-technology {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-
 }
 
 .learn button {
@@ -179,6 +164,12 @@ main .information-technology {
   font-size: 15px;
   font-weight: 600;
   color: #1e6087;
+}
+
+.learn button:hover {
+  cursor: pointer;
+  background-image: url(../image/banner-sd.jpg);
+  background-size: cover;
 }
 
 .service-menu {
@@ -194,14 +185,12 @@ main .information-technology {
   color: #1e6087;
 }
 
-
 .service-image {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 50px;
   color: #1e6087;
-
 }
 
 .service-image img {
@@ -223,29 +212,21 @@ main .information-technology {
 .service-image .managed-service h2 {
   padding-top: 20px;
   text-align: center;
-
-
-
 }
 
 .service-image .cloud h2 {
   padding-top: 20px;
   text-align: center;
-
 }
 
 .service-image .website h2 {
   padding-top: 20px;
   text-align: center;
-
 }
-
-
 
 .service-image .it h2 {
   padding-top: 20px;
   text-align: center;
-
 }
 
 .service-call .backup h2 {
@@ -256,19 +237,16 @@ main .information-technology {
 .service-call .voip h2 {
   padding-top: 20px;
   text-align: center;
-
 }
 
 .service-call .network h2 {
   padding-top: 20px;
   text-align: center;
-
 }
 
 .service-call .email h2 {
   padding-top: 20px;
   text-align: center;
-
 }
 
 .solution {
@@ -294,12 +272,10 @@ main .information-technology {
 .images img {
   height: 60vh;
   width: 40vw;
-
 }
 
 .sd-tech {
   width: 500px;
-
 }
 
 .sd-tech p {
@@ -318,19 +294,21 @@ main .information-technology {
   color: #ffffff;
 }
 
+.sd-tech button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #d32527;
+  border: 2px solid #d32527;
+}
+
 .our-client {
   background-image: url(../image/client_says.jpg);
-
-
 }
 
 .client {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-
 }
 
 .client h1 {
@@ -338,40 +316,41 @@ main .information-technology {
   font-weight: 900;
   color: #ffffff;
   padding: 70px 0px 70px 0px;
-
-
-
-
-
 }
 
 .about-client {
-  border: 2px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .about-client p {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: larger;
+  color: #ffffff;
+  padding: 0px 200px 30px 200px;
+}
+
+.sean-k {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 200px 0px 200px;
-  line-height: 1.5em;
-  font-size: large;
-  color: #ffffff;
-
+  color: #ffff;
 }
 
+.President {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  padding-top: 20px;
+}
 
-
-
-
-
-
-
+.President p {
+  text-align: center;
+  line-height: 1.5em;
+}
 
 @media only screen and (max-width: 900px) {
   header {
@@ -385,7 +364,6 @@ main .information-technology {
   .menu-box {
     display: flex;
     justify-content: flex-end;
-
   }
 
   .nav-link {
@@ -406,16 +384,122 @@ main .information-technology {
     padding-top: 40px;
   }
 
-
-
   .learn button {
-    height: 35px;
-    width: 70px;
-    font-size: 15px;
-    font-weight: 600;
+    height: 50px;
+    width: 160px;
+    font-size: large;
+  }
+
+  .service-menu h1 {
+    font-size: 30px;
+    font-weight: 900;
     color: #1e6087;
   }
 
+  .service-image {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .service-image img {
+    position: relative;
+    left: 150px;
+    padding-top: 20px;
+  }
 
+  .service-call {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .service-call img {
+    position: relative;
+    left: 150px;
+    padding-top: 20px;
+  }
+
+  .solution h1 {
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  .solution-image {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .images img {
+    height: 30vh;
+    width: 70vw;
+    position: relative;
+    left: 60px;
+    padding-bottom: 30px;
+  }
+
+  .sd-tech {
+    position: relative;
+    left: 50px;
+    width: 300px;
+  }
+
+  .sd-tech p {
+    font-size: 15px;
+    word-spacing: 0.5px;
+    letter-spacing: 1.5px;
+  }
+
+  .learn-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
+  }
+
+  .sd-tech button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-size: large;
+  }
+
+  .client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client h1 {
+    font-size: 30px;
+    color: #ffffff;
+  }
+
+  .about-client p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px 50px;
+  }
+
+  .sean-k {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+  }
+
+  .President {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    padding-top: 20px;
+  }
+
+  .President p {
+    text-align: center;
+    line-height: 1.5em;
+  }
 }
