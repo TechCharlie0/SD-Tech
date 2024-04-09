@@ -1,7 +1,9 @@
 * {
-  padding 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+
 }
 
 li {
@@ -98,7 +100,7 @@ header .call-message {
 .nav-link .ul-menu li a {
   font-size: larg;
   font-weight: 600;
-  color: black;
+  color: rgba(2, 2, 2, 0.671);
 }
 
 
@@ -136,9 +138,240 @@ header .call-message {
   display: none;
 }
 
-.information-technology {
-  background-image:
+main .information-technology {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../image/banner-sd.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 80vh;
 }
+
+.technology h1 {
+  color: white;
+  width: 50rem;
+  line-height: 1.2;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.technology p {
+  color: #ffff;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  padding-top: 40px;
+}
+
+.learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+
+}
+
+.learn button {
+  height: 35px;
+  width: 170px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e6087;
+}
+
+.service-menu {
+  padding-top: 30px;
+}
+
+.service-menu h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: #1e6087;
+}
+
+
+.service-image {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  color: #1e6087;
+
+}
+
+.service-image img {
+  height: 60px;
+}
+
+.service-call img {
+  height: 60px;
+}
+
+.service-call {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 100px;
+  color: #1e6087;
+}
+
+.service-image .managed-service h2 {
+  padding-top: 20px;
+  text-align: center;
+
+
+
+}
+
+.service-image .cloud h2 {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.service-image .website h2 {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+
+
+.service-image .it h2 {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.service-call .backup h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.service-call .voip h2 {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.service-call .network h2 {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.service-call .email h2 {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.solution {
+  padding-top: 90px;
+}
+
+.solution h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: #1e6087;
+  padding-bottom: 40px;
+}
+
+.solution-image {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.images img {
+  height: 60vh;
+  width: 40vw;
+
+}
+
+.sd-tech {
+  width: 500px;
+
+}
+
+.sd-tech p {
+  padding-bottom: 15px;
+  font-size: larger;
+  color: #212a30ce;
+  word-spacing: 1px;
+}
+
+.sd-tech button {
+  height: 40px;
+  width: 150px;
+  background-color: #d32527;
+  border: none;
+  font-size: large;
+  color: #ffffff;
+}
+
+.our-client {
+  background-image: url(../image/client_says.jpg);
+
+
+}
+
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.client h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 70px 0px 70px 0px;
+
+
+
+
+
+}
+
+.about-client {
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.about-client p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 200px 0px 200px;
+  line-height: 1.5em;
+  font-size: large;
+  color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 900px) {
   header {
@@ -155,10 +388,34 @@ header .call-message {
 
   }
 
-  nav {
-    height: 10px;
-
-    background-color: rgb(143, 29, 29);
+  .nav-link {
+    display: none;
   }
+
+  .technology h1 {
+    text-align: center;
+    color: white;
+    width: 400px;
+    font-size: 28px;
+  }
+
+  .technology p {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 15px;
+    padding-top: 40px;
+  }
+
+
+
+  .learn button {
+    height: 35px;
+    width: 70px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1e6087;
+  }
+
+
 
 }
