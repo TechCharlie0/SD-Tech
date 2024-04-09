@@ -1,0 +1,164 @@
+* {
+  padding 0px;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #ffff;
+  text-decoration: none;
+
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1e6087;
+  height: 50px;
+}
+
+header .call-message {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+
+.call-message {
+  color: #ffff;
+}
+
+.call-message i {
+  margin-right: 10px;
+}
+
+
+
+.ticket-remote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.ticket button {
+  width: 150px;
+  height: 30px;
+  text-transform: capitalize;
+  color: #1e6087;
+  background-color: #ffff;
+  border: none;
+}
+
+.ticket:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(201, 205, 209);
+}
+
+.remote button {
+  width: 150px;
+  height: 30px;
+  text-transform: capitalize;
+  color: #1e6087;
+  background-color: #ffff;
+  border: none;
+
+}
+
+.remote:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(201, 205, 209);
+}
+
+.nav-link {
+  position: relative;
+
+  height: 20px;
+  padding: 30px 110px 50px 0px;
+
+}
+
+.nav-link .ul-menu {
+  display: flex;
+  justify-content: right;
+  gap: 40px;
+
+}
+
+.nav-link .ul-menu li a {
+  font-size: larg;
+  font-weight: 600;
+  color: black;
+}
+
+
+.service-list {
+  top: 50%;
+  left: 60vw;
+  width: 12%;
+  display: none;
+  background-color: white;
+  position: absolute;
+  border-top: 2px solid #1e6087;
+
+}
+
+.service-list li {
+  margin: 10px;
+}
+
+.service-list li a {
+  transition: all 0.3s ease-in;
+
+}
+
+
+.service-list li a:hover {
+  color: green;
+  padding-left: 10px;
+}
+
+.nav-link .dropdown:hover .service-list {
+  display: block;
+}
+
+.menu-box {
+  display: none;
+}
+
+.information-technology {
+  background-image:
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    display: none;
+  }
+
+  .ul-menu {
+    display: none;
+  }
+
+  .menu-box {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  nav {
+    height: 10px;
+
+    background-color: rgb(143, 29, 29);
+  }
+
+}
