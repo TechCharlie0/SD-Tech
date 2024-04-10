@@ -140,6 +140,7 @@ main .information-technology {
   line-height: 1.2;
   font-size: 48px;
   font-weight: 900;
+  text-align: center;
 }
 
 .technology p {
@@ -216,9 +217,26 @@ main .information-technology {
   text-align: center;
 }
 
+.managed-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
 .service-image .cloud h2 {
   padding-top: 20px;
   text-align: center;
+
+}
+
+.cloud {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 .service-image .website h2 {
@@ -226,9 +244,25 @@ main .information-technology {
   text-align: center;
 }
 
+.website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
 .service-image .it h2 {
   padding-top: 20px;
   text-align: center;
+}
+
+.it {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 .service-call .backup h2 {
@@ -236,9 +270,25 @@ main .information-technology {
   text-align: center;
 }
 
+.backup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
 .service-call .voip h2 {
   padding-top: 20px;
   text-align: center;
+}
+
+.voip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 .service-call .network h2 {
@@ -246,9 +296,25 @@ main .information-technology {
   text-align: center;
 }
 
+.network {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
 .service-call .email h2 {
   padding-top: 20px;
   text-align: center;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 .solution {
@@ -434,6 +500,112 @@ main .information-technology {
   font-weight: 600;
 }
 
+.input-form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../image/touch.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.input-form h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 50px 0px 0px 0px;
+
+}
+
+.main-input div {
+  padding: 15px 0px;
+  background-size: cover;
+
+}
+
+input {
+  height: 40px;
+  width: 500px;
+  color: #ffffff;
+
+}
+
+textarea {
+  width: 500px;
+  color: #ffffff;
+  /* padding: 20px; */
+}
+
+
+
+.main-input input {
+
+  background-image: url(../image/touch.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background: transparent;
+  background-size: cover;
+}
+
+.main-input textarea {
+  background-image: url(../image/touch.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background: transparent;
+  background-size: cover;
+
+
+}
+
+.main-input .submits {
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+  background-color: #ffff;
+  color: #1e6087;
+  font-size: 20px;
+  font-weight: 200;
+
+}
+
+.submits:hover {
+  cursor: pointer;
+  background-size: cover;
+  color: #ffff;
+  background-image: url(../image/touch.jpg);
+  background: transparent;
+
+}
+
+.main-input input {
+  outline: none;
+  border: 2px solid white;
+  caret-color: white;
+}
+
+.main-input textarea {
+  outline: none;
+  border: 2px solid white;
+  caret-color: white;
+
+}
+
+.main-input ::placeholder {
+  color: #ffff;
+  padding: 20px;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 900px) {
   header {
     display: none;
@@ -486,8 +658,6 @@ main .information-technology {
   }
 
   .service-image img {
-    position: relative;
-    left: 150px;
     padding-top: 20px;
   }
 
@@ -496,11 +666,10 @@ main .information-technology {
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    flex-direction: column;
   }
 
   .service-call img {
-    position: relative;
-    left: 150px;
     padding-top: 20px;
   }
 
@@ -590,7 +759,7 @@ main .information-technology {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 50px 0px;
   }
 
   .support h1 {
@@ -600,33 +769,34 @@ main .information-technology {
   }
 
   .help-install {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 250px;
   }
 
   .help-sd {
-    text-align: center;
-    width: 294px;
-    position: relative;
-    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .help-sd h4 {
     color: #393939;
-    padding-bottom: 40px;
     line-height: 1.2em;
     font-size: 19px;
     font-weight: 600;
   }
 
   .install-sd {
-    text-align: center;
-    width: 294px;
-    position: relative;
-    left: 40px;
-    padding: 30px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding-bottom: 50px;
   }
 
   .install-sd h4 {
@@ -634,5 +804,35 @@ main .information-technology {
     line-height: 1.2em;
     font-size: 19px;
     font-weight: 600;
+    padding-top: 40px;
   }
-}
+
+  .input-form {
+    height: 80vh;
+
+
+
+    input {
+      height: 40px;
+      width: 200px;
+      color: #ffffff;
+
+    }
+
+    textarea {
+      width: 200px;
+      color: #ffffff;
+    }
+
+    .main-input .submits {
+      height: 30px;
+      width: 100px;
+
+
+
+
+
+
+
+
+    }
