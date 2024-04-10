@@ -35,4 +35,4 @@ To run SD Tech locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/TechCharlie0/sd-tech.git
+   git clone: https://github.com/TechCharlie0/SD-Tech.git
