@@ -155,7 +155,6 @@ main .information-technology {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-
 }
 
 .learn button {
@@ -166,7 +165,6 @@ main .information-technology {
   color: #1e6087;
 
   border: 2px solid white;
-
 }
 
 .learn button:hover {
@@ -367,13 +365,13 @@ main .information-technology {
   font-size: 40px;
   font-weight: 900;
   color: #1e6087;
-
 }
 
 .help-install {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 250px;
 }
 
 .help-sd {
@@ -388,7 +386,6 @@ main .information-technology {
   line-height: 1.2em;
   font-size: 25px;
   font-weight: 600;
-
 }
 
 .help-sd button {
@@ -409,7 +406,7 @@ main .information-technology {
 
 .install-sd {
   text-align: center;
-  width: 482px;
+  width: 462px;
 }
 
 .install-sd button {
@@ -419,7 +416,6 @@ main .information-technology {
   border: none;
   font-size: 18px;
   color: #ffff;
-
 }
 
 .install-sd button:hover {
@@ -436,13 +432,7 @@ main .information-technology {
   line-height: 1.2em;
   font-size: 25px;
   font-weight: 600;
-
-
-
-
-
 }
-
 
 @media only screen and (max-width: 900px) {
   header {
@@ -594,5 +584,55 @@ main .information-technology {
   .President p {
     text-align: center;
     line-height: 1.5em;
+  }
+
+  .support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .support h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #1e6087;
+  }
+
+  .help-install {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+
+  .help-sd {
+    text-align: center;
+    width: 294px;
+    position: relative;
+    left: 40px;
+  }
+
+  .help-sd h4 {
+    color: #393939;
+    padding-bottom: 40px;
+    line-height: 1.2em;
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .install-sd {
+    text-align: center;
+    width: 294px;
+    position: relative;
+    left: 40px;
+    padding: 30px 0px 50px 0px;
+  }
+
+  .install-sd h4 {
+    color: #393939;
+    line-height: 1.2em;
+    font-size: 19px;
+    font-weight: 600;
   }
 }
