@@ -223,13 +223,11 @@ main .information-technology {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .service-image .cloud h2 {
   padding-top: 20px;
   text-align: center;
-
 }
 
 .cloud {
@@ -237,7 +235,6 @@ main .information-technology {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .service-image .website h2 {
@@ -250,7 +247,6 @@ main .information-technology {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .service-image .it h2 {
@@ -263,7 +259,6 @@ main .information-technology {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .service-call .backup h2 {
@@ -276,7 +271,6 @@ main .information-technology {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .service-call .voip h2 {
@@ -289,7 +283,6 @@ main .information-technology {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .service-call .network h2 {
@@ -302,7 +295,6 @@ main .information-technology {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .service-call .email h2 {
@@ -315,7 +307,6 @@ main .information-technology {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .solution {
@@ -511,8 +502,6 @@ main .information-technology {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 
 .input-form h1 {
@@ -520,47 +509,24 @@ main .information-technology {
   font-size: 30px;
   color: white;
   padding: 50px 0px 0px 0px;
-
 }
 
 .main-input div {
   padding: 15px 0px;
   background-size: cover;
-
 }
 
 input {
   height: 40px;
   width: 500px;
   color: #ffffff;
-
+  background: transparent;
 }
 
 textarea {
   width: 500px;
   color: #ffffff;
-  /* padding: 20px; */
-}
-
-
-
-.main-input input {
-
-  background-image: url(../image/touch.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
   background: transparent;
-  background-size: cover;
-}
-
-.main-input textarea {
-  background-image: url(../image/touch.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background: transparent;
-  background-size: cover;
-
-
 }
 
 .main-input .submits {
@@ -571,7 +537,6 @@ textarea {
   color: #1e6087;
   font-size: 20px;
   font-weight: 200;
-
 }
 
 .submits:hover {
@@ -580,7 +545,6 @@ textarea {
   color: #ffff;
   background-image: url(../image/touch.jpg);
   background: transparent;
-
 }
 
 .main-input input {
@@ -593,7 +557,6 @@ textarea {
   outline: none;
   border: 2px solid white;
   caret-color: white;
-
 }
 
 .main-input ::placeholder {
@@ -609,7 +572,6 @@ textarea {
   font-weight: 900;
   color: #1e6087;
   padding-bottom: 30px;
-
 }
 
 .partner-sd {
@@ -624,7 +586,6 @@ textarea {
 
 .image-partner img {
   width: 120px;
-
 }
 
 .tech-contact {
@@ -657,7 +618,6 @@ textarea {
 .tech-phone h1 {
   color: #393939;
   padding-bottom: 20px;
-
 }
 
 .tech-phone p {
@@ -671,14 +631,12 @@ textarea {
   height: 40px;
   background-color: #d32527;
   color: #ffff;
-
 }
 
 .copyright p {
   font-size: 12px;
   font-weight: bold;
 }
-
 
 @media only screen and (max-width: 900px) {
   header {
@@ -882,16 +840,13 @@ textarea {
   }
 
   .input-form {
-    height: 80vh;
+    height: 70vh;
   }
-
-
 
   input {
     height: 40px;
     width: 200px;
     color: #ffffff;
-
   }
 
   textarea {
@@ -902,7 +857,6 @@ textarea {
   .main-input .submits {
     height: 30px;
     width: 100px;
-
   }
 
   .image-partner {
@@ -914,15 +868,11 @@ textarea {
 
   .image-partner img {
     width: 120px;
-
   }
 
   .our-sd h1 {
-
     font-size: 30px;
     font-weight: 600;
-    padding-bottom: 20px;
-
   }
 
   .partner-sd {
@@ -937,13 +887,8 @@ textarea {
     background-color: #dfdfdf;
   }
 
-
-
-
   .image-partner img {
     width: 150px;
-
-
   }
 
   .tech-contact {
@@ -953,7 +898,6 @@ textarea {
     flex-direction: column;
     height: 350px;
   }
-
 
   .tech-info img {
     width: 100px;
@@ -992,11 +936,4 @@ textarea {
   .tech-phone p {
     padding: 5px;
   }
-
-
-
-
-
-
-
 }

@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e6087;
+    height: 50px;
+}
+
+header .call-message {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+.call-message {
+    color: #ffff;
+}
+
+.call-message i {
+    margin-right: 10px;
+}
+
+.ticket-remote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.ticket button {
+    width: 150px;
+    height: 30px;
+    text-transform: capitalize;
+    color: #1e6087;
+    background-color: #ffff;
+    border: none;
+}
+
+.ticket:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(201, 205, 209);
+}
+
+.remote button {
+    width: 150px;
+    height: 30px;
+    text-transform: capitalize;
+    color: #1e6087;
+    background-color: #ffff;
+    border: none;
+}
+
+.remote:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(201, 205, 209);
+}
+
+.nav-link {
+    position: relative;
+
+    height: 20px;
+    padding: 30px 110px 50px 0px;
+}
+
+.nav-link .ul-menu {
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+}
+
+.nav-link .ul-menu li a {
+    font-size: larg;
+    font-weight: 600;
+    color: rgba(2, 2, 2, 0.671);
+}
+
+.service-list {
+    top: 50%;
+    left: 60vw;
+    width: 12%;
+    display: none;
+    background-color: white;
+    position: absolute;
+    border-top: 2px solid #1e6087;
+}
+
+.service-list li {
+    margin: 10px;
+}
+
+.service-list li a {
+    transition: all 0.3s ease-in;
+}
+
+.service-list li a:hover {
+    color: green;
+    padding-left: 10px;
+}
+
+.nav-link .dropdown:hover .service-list {
+    display: block;
+}
+
+.menu-box {
+    display: none;
+}
+
+main .information-technology {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/zaptech-banner.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #131212;
+    height: 80vh;
+}
+
+.technology h1 {
+    color: white;
+    width: 50rem;
+    line-height: 1.2;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.technology p {
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    padding-top: 40px;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.learn button {
+    height: 35px;
+    width: 170px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1e6087;
+    border: 2px solid white;
+}
+
+.learn button:hover {
+    cursor: pointer;
+    background-image: url(../image/zaptech-banner.jpg);
+    background-size: cover;
+    background: transparent;
+}
+
+.business-solution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.business-sd h1 {
+    width: 50rem;
+    line-height: 1.2;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: #1e6087;
+}
+
+.expert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.expert button {
+    height: 45px;
+    width: 370px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #d32527;
+    color: #ffff;
+    border: none;
+}
+
+.expert button:hover {
+    cursor: pointer;
+    background-color: #ffff;
+    color: #d32527;
+    border: 2px solid #d32527;
+}
+
+main .contact-expert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/touch.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.learn-sd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.learn-sd button {
+    height: 35px;
+    width: 170px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1e6087;
+
+    border: 2px solid white;
+}
+
+.learn-sd button:hover {
+    cursor: pointer;
+    background-image: url(../image/touch.jpg);
+    background-size: cover;
+    background: transparent;
+}
+
+.tech-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: #dfdfdf;
+}
+
+.tech-phone a {
+    color: #393939;
+}
+
+.tech-info img {
+    width: 200px;
+}
+
+.tech-info h4 {
+    width: 300px;
+    color: #393939;
+    padding: 20px 0px 20px 0px;
+}
+
+.tech-info {
+    width: 200px;
+    padding: 20px 0px 20px 0px;
+}
+
+.tech-phone h1 {
+    color: #393939;
+    padding-bottom: 20px;
+}
+
+.tech-phone p {
+    padding: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #d32527;
+    color: #ffff;
+}
+
+.copyright p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    .ul-menu {
+        display: none;
+    }
+
+    .menu-box {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .technology h1 {
+        text-align: center;
+        color: white;
+        width: 400px;
+        font-size: 28px;
+    }
+
+    .technology p {
+        text-align: center;
+        letter-spacing: 5px;
+        font-size: 15px;
+        padding-top: 40px;
+    }
+
+    .learn button {
+        height: 50px;
+        width: 160px;
+        font-size: large;
+    }
+
+    .business-solution {
+        height: 30vh;
+    }
+
+    .business-sd h1 {
+        text-align: center;
+        width: 400px;
+        font-size: 28px;
+    }
+
+    .expert button {
+        height: 50px;
+        width: 350px;
+        font-size: large;
+    }
+
+    .tech-contact {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 250px;
+        background-color: #dfdfdf;
+    }
+
+    .image-partner img {
+        width: 150px;
+    }
+
+    .tech-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 350px;
+    }
+
+    .tech-info img {
+        width: 100px;
+    }
+
+    .tech-info h4 {
+        width: 200px;
+        color: #393939;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .tech-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tech-info h4 {
+        width: 300px;
+        text-align: center;
+    }
+
+    .tech-info p {
+        text-align: center;
+        width: 350px;
+    }
+
+    .tech-phone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tech-phone p {
+        padding: 5px;
+    }
+}
