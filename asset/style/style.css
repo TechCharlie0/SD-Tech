@@ -164,6 +164,8 @@ main .information-technology {
   font-size: 15px;
   font-weight: 600;
   color: #1e6087;
+  border: none;
+
 }
 
 .learn button:hover {
@@ -365,6 +367,7 @@ main .information-technology {
   .menu-box {
     display: flex;
     justify-content: flex-end;
+    padding: 10px 10px 10px 0px;
   }
 
   .nav-link {
