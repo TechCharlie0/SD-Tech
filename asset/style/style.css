@@ -170,6 +170,7 @@ main .information-technology {
   cursor: pointer;
   background-image: url(../image/banner-sd.jpg);
   background-size: cover;
+  background: transparent;
 }
 
 .service-menu {
