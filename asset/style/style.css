@@ -65,6 +65,7 @@ header .call-message {
   text-transform: capitalize;
   color: #1e6087;
   background-color: #ffff;
+  border: none;
 }
 
 .remote:hover {
