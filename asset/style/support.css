@@ -128,13 +128,13 @@ header .call-message {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../image/zaptech-banner.jpg);
-    background-blend-mode: overlay;
+    background-image: url(../image/contact_us_banner.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-color: #131212;
-    height: 80vh;
+    background-blend-mode: overlay;
+    background-color: rgb(41, 40, 40);
+    height: 50vh;
 }
 
 .technology h1 {
@@ -154,102 +154,148 @@ header .call-message {
     padding-top: 40px;
 }
 
-.learn {
+
+
+.input-form {
+    height: 80vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-top: 50px;
-}
-
-.learn button {
-    height: 35px;
-    width: 170px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #1e6087;
-    border: 2px solid white;
-}
-
-.learn button:hover {
-    cursor: pointer;
-    background-image: url(../image/zaptech-banner.jpg);
-    background-size: cover;
-    background: transparent;
-}
-
-.business-solution {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    height: 40vh;
+    flex-direction: column;
 }
 
-.business-sd h1 {
-    width: 50rem;
-    line-height: 1.2;
-    font-size: 48px;
-    font-weight: 900;
+.input-form h1 {
     text-align: center;
-    color: #1e6087;
+    font-size: 30px;
+    color: white;
+    padding: 50px 0px 0px 0px;
 }
 
-.expert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.expert button {
-    height: 45px;
-    width: 370px;
-    font-size: 15px;
-    font-weight: 600;
-    background-color: #d32527;
-    color: #ffff;
-    border: none;
-}
-
-.expert button:hover {
-    cursor: pointer;
-    background-color: #ffff;
-    color: #d32527;
-    border: 2px solid #d32527;
-}
-
-main .contact-expert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../image/touch.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
+.main-input div {
+    padding: 15px 0px;
     background-size: cover;
-    height: 50vh;
 }
 
-.learn-sd {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.learn-sd button {
-    height: 35px;
-    width: 170px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #1e6087;
-
-    border: 2px solid white;
-}
-
-.learn-sd button:hover {
-    cursor: pointer;
-    background-image: url(../image/touch.jpg);
-    background-size: cover;
+input {
+    height: 40px;
+    width: 500px;
+    color: black;
     background: transparent;
+}
+
+textarea {
+    width: 500px;
+    color: black;
+    background: transparent;
+}
+
+.main-input .submits {
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: #1e6087;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.submits:hover {
+    cursor: pointer;
+}
+
+.main-input input {
+    outline: none;
+    border: 2px solid #1e6087;
+    caret-color: #1e6087;
+}
+
+.main-input textarea {
+    outline: none;
+    border: 2px solid #1e6087;
+    caret-color: #1e6087;
+}
+
+.main-input ::placeholder {
+    color: black;
+    font-size: large;
+    padding: 10px 0px;
+
+}
+
+.info-sd a {
+    color: #1675ac;
+}
+
+.info-sd p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info-sd i {
+    color: #1675ac;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-menu h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #1e6087;
+}
+
+.service-menu {
+    padding-top: 30px;
+}
+
+.location-sd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.call-for {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+
+
+}
+
+.email-for {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+
+
+
+}
+
+.support-ticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+
+
 }
 
 .tech-contact {
@@ -335,38 +381,38 @@ main .contact-expert {
         padding-top: 40px;
     }
 
-    .learn button {
-        height: 50px;
-        width: 160px;
-        font-size: large;
-    }
-
-    .business-solution {
-        height: 30vh;
-    }
-
-    .business-sd h1 {
-        text-align: center;
-        width: 400px;
-        font-size: 28px;
-    }
-
-    .expert button {
-        height: 50px;
-        width: 350px;
-        font-size: large;
-    }
-
-    .tech-contact {
+    .contact-info {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        height: 250px;
-        background-color: #dfdfdf;
+        flex-direction: column;
     }
 
-    .image-partner img {
-        width: 150px;
+    .service-menu h1 {
+        color: #1e6087;
+        padding: 20px 0px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .input-form {
+        height: 70vh;
+    }
+
+    input {
+        height: 40px;
+        width: 260px;
+        color: #ffffff;
+    }
+
+    textarea {
+        width: 260px;
+        color: #ffffff;
+    }
+
+    .main-input .submits {
+        height: 30px;
+        width: 100px;
     }
 
     .tech-contact {
@@ -411,7 +457,48 @@ main .contact-expert {
         flex-direction: column;
     }
 
-    .tech-phone p {
-        padding: 5px;
+
+
+    .location-sd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+        gap: 15px;
     }
-}
+
+
+    .call-for {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+        gap: 15px;
+
+
+    }
+
+    .email-for {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+        gap: 15px;
+
+
+
+    }
+
+    .support-ticket {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+        gap: 15px;
+
+
+    }
